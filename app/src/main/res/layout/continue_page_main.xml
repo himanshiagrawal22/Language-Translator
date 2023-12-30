@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainContinuePage">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="288dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="424dp"
+        android:fontFamily="@font/gvtime"
+        android:gravity="center_horizontal"
+        android:text="Translang"
+        android:textColor="#000000"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="364dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="337dp"
+        android:fontFamily="@font/ptserifbold"
+        android:gravity="center_horizontal"
+        android:text="Translate easy and fast \n into 100+ languages"
+        android:textSize="20dp"
+        android:textColor="@color/grey"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="113dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="424dp"
+        app:srcCompat="@drawable/hola" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="113dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="423dp"
+        app:srcCompat="@drawable/hello" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="145dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="266dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/ciao" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="129dp"
+        android:layout_height="156dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="519dp"
+        android:layout_marginEnd="273dp"
+        app:srcCompat="@drawable/girl1" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="118dp"
+        android:layout_height="156dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="519dp"
+        android:layout_marginEnd="162dp"
+        app:srcCompat="@drawable/boy1" />
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="126dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="267dp"
+        android:layout_marginTop="543dp"
+        android:layout_marginEnd="24dp"
+        app:srcCompat="@drawable/girl2" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+
+        <ProgressBar
+            android:id="@+id/signUpProgressBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="34dp"
+        android:backgroundTint="@color/darkcream"
+        android:font="@font/ptserifbold"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:text="Continue"
+        android:textColor="#FF000000"
+        android:textSize="18dp"
+        app:cornerRadius="10dp" />
+
+</RelativeLayout>
