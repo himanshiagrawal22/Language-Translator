@@ -40,12 +40,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:hint="Full Name"
+            android:hint="User Name"
             android:textColorHint="@color/black"
             app:boxStrokeColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtSignUpFullName"
+                android:id="@+id/edtUserName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -55,62 +55,8 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Email"
-            android:textColorHint="@color/black"
-            app:boxStrokeColor="@color/black">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtSignUpEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
-                android:inputType="textEmailAddress"
-                android:singleLine="true"
-                android:textColor="@color/black" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                android:text="+ 91"
-                android:textColor="@color/black"
-                android:textSize="20dp" />
-
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:hint="Mobile Number"
-                android:textColorHint="@color/black"
-                app:boxStrokeColor="@color/black">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/edtSignUpMobile"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:inputType="number"
-                    android:singleLine="true"
-                    android:textColor="@color/black" />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
-        </LinearLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -192,24 +138,37 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
 
                 android:text="Already have an Account ?"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/txtLogIn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-
-                android:text="Log In"
-                android:textColor="@color/red"
-                android:textSize="14sp" />
-
-
+                android:textSize="16sp" />
         </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/signUpProgressBar2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/txtSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/black"
+
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:text="Sign In"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18dp"
+            app:cornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
 
     </LinearLayout>
 
