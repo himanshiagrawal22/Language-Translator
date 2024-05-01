@@ -34,7 +34,7 @@
         android:layout_marginBottom="337dp"
         android:fontFamily="@font/ptserifbold"
         android:gravity="center_horizontal"
-        android:text="Translate easy and fast \n into 100+ languages"
+        android:text="Translate easy and fast \n into Multiple languages"
         android:textSize="20dp"
         android:textColor="@color/grey"/>
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299013653747",
+    "project_id": "translang-app-72a74",
+    "storage_bucket": "translang-app-72a74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299013653747:android:4ba9cf6a6104e616b72386",
+        "android_client_info": {
+          "package_name": "com.translangapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYq4dsnAc1kL6TW3-HEn_ZZkY23BwfTAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

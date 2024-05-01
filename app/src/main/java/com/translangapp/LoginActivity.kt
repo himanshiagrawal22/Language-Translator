@@ -3,7 +3,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -42,11 +41,11 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         }
-        val signbtn = findViewById<TextView>(R.id.txtSignUp)
+        /*val signbtn = findViewById<TextView>(R.id.txtSignUp)
         signbtn.setOnClickListener() {
             val Intent = Intent(this, SignupActivity::class.java)
             startActivity(Intent)
-        }
+        }*/
     }
 
 }

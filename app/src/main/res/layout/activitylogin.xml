@@ -40,12 +40,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:hint="Email"
+            android:hint="User Name"
             android:textColorHint="@color/black"
             app:boxStrokeColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtSignInEmail"
+                android:id="@+id/edtSignInUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
